@@ -7,7 +7,7 @@
     <title>Frustrating Number Game</title>
     <meta name="title" content="Frustrating Number Game">
     <meta name="description" content="Frustrating Number Game, because why not?">
-    <meta name="keywords" content="game, number, cringe, frustrating ">
+    <meta name="keywords" content="game, number, cringe, frustrating">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
@@ -19,16 +19,27 @@
     <div class="slidecontainer">
         <input type="range" min="111111111111" max="999999999999" value="111111111111" step="1" class="slider" id="myRange">
         <button id="submit">Submit</button>
-        
-        <p>Value: <span id="value"></span></p>
-        <p>Score: <span id="score"></span></p>
-        <p id="pval">Goal : <span id="pgoal"></span></p>
-        <div>
-            <div id="sofar" class="hide"><p>Your guess is so far away!!!</p></div>
-            <div id="soclose" class="hide"><p>Your guess is so close!!!</p></div>
-            <div id="deadon" class="hide"><p>Your guess is deadon!!!</p></div>
-        </div>
     </div>
+    <div id="container">
+        <div id="vd">
+            <p>Value: <span id="value"></span></p>
+        </div>
+        <div id="sd">
+            <p>Score: <span id="score"></span></p>    
+        </div>
+        <div id="ld">
+            <p>Chances: <span id="live"></span> out of 5</p>
+        </div>
+        <div id="pd">
+            <p><span id="pgoal"></span></p>
+        </div>
+    </div>   
+    <div>
+        <div id="sofar" class="hide"><p>Your guess is so far away!!!</p></div>
+        <div id="soclose" class="hide"><p>Your guess is so close!!!</p></div>
+        <div id="deadon" class="hide"><p>Your guess is deadon!!!</p></div>
+    </div>
+    
 
     <script src="index.js"></script> 
 </body>
